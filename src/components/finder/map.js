@@ -25,10 +25,9 @@ export default function HospitalMap(){
     return(
         <APIProvider apiKey={env.REACT_APP_API}>
             <div style={{height: "100vh", width: "100%"}}>
-                <Map zoomControl={true} streetViewControl={true} disableDefaultUI={true}
+                <Map zoomControl={true} streetViewControl={true} cameraControl={true}
                  mapTypeControl={false} scrollwheel={true}
-                 disableDoubleClickZoom={false}
-                 zoom={7} center={position} mapId={"e82a49a0aed5df04"}>
+                 disableDoubleClickZoom={false} mapId={"e82a49a0aed5df04"}>
                     {generateMarkers(lats, lngs)}
                 </Map>
             </div>
