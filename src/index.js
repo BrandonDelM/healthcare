@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.js';
 import Finder from './components/finder/finder.js';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals.js';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
