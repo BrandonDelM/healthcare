@@ -9,7 +9,7 @@ export default function Navbar(){
                 <div className="right-text">
                     <ul>
                         <li>Home</li>
-                        <li>Locator</li>
+                        <li>Finder</li>
                         <li>About</li>
                         <li>Contacts</li>
                     </ul>
